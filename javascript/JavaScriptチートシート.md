@@ -27,9 +27,14 @@ topSections.forEach((topSection) => {
 });
 ```
 
-## トグルボタン(表示・非表示を切り替える)を押すと詳細文章が表示される
+## アコーディオンメニュー
+トグルボタン(表示・非表示を切り替える)を押すと詳細文章が表示される
+
+```js
 classList.toggle("クラス名");
-HTMLクラスの付け外し定型文
+//HTMLクラスの付け外し定型文
+```
+
 ### ①this.nextSiblig.classList.toggle("active");
 『this=top-sectionクラス』それぞれを表します。
 『nextSibling』はtop-sectionと並列の要素を表しています。
@@ -188,7 +193,7 @@ buttonLeft.addEventListener('click', function() { // 左ボタンをクリック
 
 ```
 
-## スライドショー
+## スライドショー（自動）
 自動的に画像がスライドします。
 setInterval＝繰り返し処理
 forEach＝１つ１つに対して動作する
@@ -227,14 +232,5 @@ setInterval(function(){
 }, 6000);
 
 
-
-```
-
-
-## タイトル
-
-```diff_javascript
-
-source code
 
 ```
